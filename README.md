@@ -41,9 +41,9 @@ For detailed wiring, refer to the `schematic.png` file in the repository. ![](sc
 
 ```
 /arduino_motor_control
-|-- dc-motors-potentiometers-speed-control.ino      # Arduino sketch file
-|-- schematic.png     # Wiring diagram image
-|-- README.md              # Project documentation
+|-- dc-motors-potentiometers-speed-control.ino          # Arduino sketch file
+|-- schematic.png                                       # Wiring diagram image
+|-- README.md                                           # Project documentation
 ```
 
 ## Contributing
