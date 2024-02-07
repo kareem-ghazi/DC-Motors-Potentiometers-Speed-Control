@@ -23,33 +23,27 @@ This Arduino project allows you to control the speed of two DC motors using pote
 - Breadboard and jumper wires
 
 ## Wiring Instructions
-
-1. Connect the left motor to the motor driver's left output.
-2. Connect the right motor to the motor driver's right output.
-3. Connect the potentiometer for the left motor to analog pin A0.
-4. Connect the potentiometer for the right motor to analog pin A1.
-5. Connect the slider switch for the left motor to digital pin 2.
-6. Connect the slider switch for the right motor to digital pin 3.
-
-For detailed wiring, refer to the `wiring_diagram.png` file in the repository.
+For detailed wiring, refer to the `schematic.png` file in the repository. ![](schematic.png)
 
 ## Usage
 
-1. Upload the Arduino sketch (`motor_control.ino`) to your Arduino board.
+1. Upload the Arduino sketch (`dc-motors-potentiometers-speed-control.ino`) to your Arduino board.
 2. Open the Serial monitor.
 3. Control the motors using the following commands:
    - Send 'L' to open the left motor.
    - Send 'R' to open the right motor.
    - Send 'S' to stop both motors.
 
+## Tinkercad
+- You can view a live simulaton of the project through the following link on [Tinkercad](https://www.tinkercad.com/things/ed2zRNDbbZa-dc-motors-potentiometers-speed-control)
+
 ## Repository Structure
 
 ```
 /arduino_motor_control
-|-- motor_control.ino      # Arduino sketch file
-|-- wiring_diagram.png     # Wiring diagram image
+|-- dc-motors-potentiometers-speed-control.ino      # Arduino sketch file
+|-- schematic.png     # Wiring diagram image
 |-- README.md              # Project documentation
-|-- .gitignore             # Git ignore file
 ```
 
 ## Contributing
